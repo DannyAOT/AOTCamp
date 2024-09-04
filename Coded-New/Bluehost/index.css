@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 38px;
+}
+.blue {
+    margin-top: 14px;
+    margin-left: 23px;
+    display: flex;
+    height: 40px;
+    width: 900px;
+    padding-top: 7px;
+    padding-left: 9px;
+    align-items: baseline;
+}
+.blue li {
+    padding-right: 40px;
+    list-style-type: none; 
+}
+.host i {
+    font-size: 22px;
+}
+.host {
+    margin-top: 10px;
+    display: flex;
+    height: 40px;
+    padding-top: 18px;
+    align-items: baseline;
+}
+.host li {
+    padding-right: 40px;
+    list-style-type: none; 
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px;
+    border-radius: 17px;
+    background: linear-gradient(to right, rgba(0, 102, 255, 0.918), rgba(0, 47, 255, 0.89));
+    padding: 10px;
+    height: 550px;
+}
+.word {
+    padding-top: 77px;
+    padding-left: 70px;
+    width: 750px;
+}
+.word h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+.word h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 55px;
+}
+.word p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.word button{
+    width: 180px;
+    height: 61px;
+    outline: none;
+    border: none;
+    background: rgb(252, 228, 96);
+    color: darkblue;
+    font-size: 17px;
+}
+.press {
+    padding-top: 23px;
+    padding-right: 13px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 22px;
+    padding-top: 37px;
+    padding-left: 30px;
+    background: rgba(0, 102, 255, 0.301);
+    border-radius: 17px;
+    height: 195px;
+}
+.container h3 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container a {
+    text-decoration: none;
+    border-bottom: 2px solid rgba(0, 102, 255, 0.938);
+    color: rgba(0, 102, 255, 0.938);
+    font-size: 21px;
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+.container i {
+    text-align: center;
+    font-size: 22px;
+}
+.pack {
+    display: flex;
+    margin: 22px;
+}
+.pack input {
+    padding-top: 6px;
+    padding-left: 30px;
+    height: 64px;
+    width: 1000px;
+    border: 1px solid blue;
+    outline: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.pack input::placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pack button {
+    height: 64px;
+    width: 300px;
+    background: rgba(0, 0, 255, 0.877);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    color: rgba(0, 255, 255, 0.842);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.nextline {
+    text-align: center;
+}
+.nextline h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.wonder {
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(3, 3, 197),rgb(27, 27, 252));
+    height: 550px;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    padding-top: 32px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.wonder h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.wonder h1 {
+    color: white;
+    font-size: 38px;
+}
+.wonder p {
+    color: white;
+    font-size: 18px;
+}
+.wonder button{
+    margin-bottom: 19px;
+    width: 180px;
+    height: 61px;
+    outline: none;
+    border: none;
+    background: rgb(252, 228, 96);
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+.wonder img {
+    width: 900px;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 550px;
+}
+.wrap h5 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.wrap h1 {
+    color: white;
+}
+
+.wrap button {
+    width: 180px;
+    height: 61px;
+    outline: none;
+    border: none;
+    background: rgb(252, 228, 96);
+    color: black;
+    font-weight: 550;
+    font-size: 17px;
+}
+.fast {
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    background: rgba(0, 102, 255, 0.918);
+    width: 350px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.fast img {
+    width: 300px;
+}
+.fast button{
+    margin-bottom: 10px;
+}
+.easy {
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    background: rgba(0, 102, 255, 0.918);
+    width: 350px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.easy button{
+    margin-bottom: 10px;
+}
+.easy img {
+    width: 300px;
+}
+.tools {
+    text-align: center;
+    background: rgba(0, 102, 255, 0.918);
+    width: 350px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.tools h5 {
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.tools h1 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.tools img {
+    display: flex;
+    width: 350px;
+}
+.roll {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 550px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+    height: 570px;
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    padding-top: 32px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.roll button {
+    width: 180px;
+    height: 61px;
+    outline: none;
+    border: none;
+    background: rgb(252, 228, 96);
+    color: black;
+    font-weight: 550;
+    font-size: 17px;
+}
+.roll h5 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.roll h1 {
+    color: white;
+    font-size: 37px;
+}
+.web {
+    padding-top: 20px;
+    text-align: center;
+    background: rgba(4, 71, 172, 0.918);
+    width: 520px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.web h1 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.web img {
+    width: 500px;
+}
+.digital {
+    padding-top: 20px;
+    text-align: center;
+    background: rgba(4, 71, 172, 0.918);
+    width: 520px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.digital h1 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.digital button {
+    margin-bottom: 20px;
+}
+
+.digital img {
+    padding-right: 43px;
+    width: 530px;
+}
+.choose {
+    text-align: center;
+}
+.choose h1 {
+    font-size: 37px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.choose p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.round {
+    display: flex;
+    justify-content: space-between;
+    height: 1200px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+}
+.round h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.round h5 {
+    font-size: 19px;
+    background: rgba(0, 255, 255, 0.096);
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.round h3 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 13px;
+}
+.round h3 p {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: 19px;
+    color: black;
+}
+.round p {
+    font-size: 15px;
+    color: rgba(34, 34, 58, 0.678);
+}
+.round button {
+    margin-bottom: 19px;
+    width: 200px;
+    height: 61px;
+    outline: none;
+    border: none;
+    background: rgb(2, 110, 252);
+    color: white;
+    font-weight: 550;
+    font-size: 17px;
+}
+.round li {
+    display: flex;
+    justify-content:start;
+    padding-left: 30px;
+    padding-right: 25px;
+    padding-bottom: 17px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.basic {
+    width: 250px;
+    border: 1px solid blue;
+    border-radius: 9px;
+    padding-top: 60px;
+}
+.plus {
+    width: 250px;
+    border: 2px solid rgba(20, 20, 172, 0.76);
+    border-radius: 9px;
+}
+.plus h2 {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: rgba(20, 20, 172, 0.76);
+    color: white;
+    padding-bottom: 12px;
+    letter-spacing: 5px;
+}
+.store {
+    width: 250px;
+    border: 1px solid blue;
+    border-radius: 9px;
+    padding-top: 60px;
+}
+.pro {
+    width: 250px;
+    border: 1px solid blue;
+    border-radius: 9px;
+    padding-top: 60px;
+}
+.promote {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.speed {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background: rgba(0, 110, 255, 0.267);
+    padding: 40px; 
+    border: none;
+    outline: none;
+    border-radius: 7px;  
+}
+.uptime h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.uptime h2 {
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.uptime p {
+    font-family: 'Times New Roman', Times, serif;
+}
+.bars button{
+    margin-top: 45px;
+    width: 200px;
+    height: 61px;
+    outline: none;
+    border: none;
+    background: blue;
+    color: white;
+    font-weight: 550;
+    font-size: 17px;
+}
+.satisfy h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.consult {
+    padding-top: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 70px;
+    background: rgba(0, 110, 255, 0.116);
+}
+.consult h1 {
+    font-size: 60px;
+}
+
+.consult input {
+    margin-top: 4px;
+    border: 1px solid grey;
+    outline: none;
+    width: 1084px;
+    height: 40px;
+}
+#lab {
+    margin-right: 483px;
+}
+#inputo {
+    width: 530px;
+    height: 50px;
+    margin-right: 20px;
+}
+#inputt {
+    width: 530px;
+    height: 50px;
+}
+#sub {
+    width: 160px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 34, 0.822);
+    color: white;
+    font-weight: 550;
+    font-size: 17px;
+}
+.faq h1 {
+    margin-top: 90px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 40px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid cyan;
+}
+.ting {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid cyan;
+}
+.global {
+    width: 2000px;
+
+}
+.hybrid{
+    width: 1700px;
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 16px;
+    padding-right: 200px;
+    width: 100%;
+    height: 450px;
+    color: white;
+    background: rgb(1, 33, 82);
+}
+.foot h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.foot li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.vps {
+    width: 160px;
+}
+.keti {
+    width: 160px;
+}
+.abuse {
+    width: 160px;
+}
+.blog {
+    width: 160px;
+}
+.zade {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 58, 145, 0.918);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 16px;
+    padding-right: 96px;
+    font-size: 14px;
+}
+.right i {
+    font-size: 30px;
+    margin-left: 13px;
+}

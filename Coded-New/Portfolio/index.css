@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(0, 0, 22, 0.815) no-repeat;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav h2 {
+    padding-left: 50px;
+}
+nav ul {
+    display: flex;
+    padding-right: 40px;
+}
+nav h2 {
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
